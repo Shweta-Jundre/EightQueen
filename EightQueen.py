@@ -72,9 +72,7 @@ class EightQueen:
         return new_population
 
     def print_sequence(self,chrom):
-        print("{} "
-             .format(str(chrom)))
-
+        print(str(chrom))
 
 def main():
     EightQueen()
